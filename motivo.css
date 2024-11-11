@@ -1,0 +1,77 @@
+body{ 
+    background-image: url(FONDO2.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+}  
+h3{
+    color: rgb(231, 17, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:250 ;
+}
+h5{ 
+    background-color: rgb(224, 221, 42); 
+    font-size:30px ;
+      
+}  
+h6{ 
+    background-color: rgb(224, 42, 87); 
+    font-size:30px ;
+      
+} 
+.contenedor{  
+    display: flex;
+
+}
+.cabezera{ 
+    background-color: rgb(4, 23, 131); 
+    text-align: center; 
+    font-size:40px ;  
+} 
+.derecha1{  
+    flex: 1; 
+    background-color: rgb(5, 5, 5); 
+    text-align: center;
+} 
+.izquierda1{ 
+    flex: 1; 
+    background-color: rgb(3, 3, 3); 
+    text-align: center;
+} 
+.derecha{  
+    flex: 1; 
+    background-color: rgb(5, 5, 5); 
+    text-align: center;
+} 
+.izquierda{ 
+    flex: 1; 
+    background-color: rgb(3, 3, 3); 
+    text-align: center;
+}
+p{
+    color:rgb(253, 253, 253);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30;
+}  
+.galeria{
+    margin: 5px;
+    border: 10px solid rgb(31, 43, 216);
+    width: 190px; 
+    float: left;
+} 
+.galeria:hover{   
+    border: 12px solid rgb(179, 2, 2);
+}
+.imagen{
+    width: 100%;
+    height: auto; 
+    border-radius: 25%;
+}
+.textoinferior{
+    background-color:rgb(15, 15, 13);
+    text-align: center;
+    padding: 20px; 
+    color: white;
+
+} 
